@@ -10,7 +10,7 @@ oba te parametry zostały podane, a następnie powinna ustawiać np. data[“nam
 */
 
 
-/*PYTANIE 1: Jak tworzymy obiekt z metodami, to czy jest różnica między umieszczeniem definicji funkcji:
+/*PYTANIE: Jak tworzymy obiekt z metodami, to czy jest różnica między umieszczeniem definicji funkcji:
 WERSJA 1) w return {nazwafunkcji: function(){}}; 
 WERSJA 2) lub jako this.nazwa_funkcji = function(){}; - jeśli dodatkowo dodamy aby funkcja wywyoływała się z new nawet gdy tego new nie podamy czyli if(!(this instanceof Obiekt)){return new Obiekt()} ?
 Który z tych sposobów kiedy może być lepszy?
