@@ -25,7 +25,7 @@ function createData(obj) {
 
     return{ 
         set: function(key, val){
-            if(key && val){
+            if(key && val || val == 0){
                 data[key] = val;
             }
             else{
